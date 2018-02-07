@@ -1,0 +1,48 @@
+*{
+  font-family: roboto;
+}
+#mapa{
+  height: 90vh;
+  width: 100%;
+}
+.navbar{
+  background-color: #FFC107;
+  margin-bottom: 0;
+}
+.input{
+  background-color: transparent;
+  border-color: white;
+}
+.input::placeholder{
+  color:white;
+}
+#sizing-addon2{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+#trazar-ruta{
+  margin-left: 6%;
+  color: #515151;
+  background-color: white;
+}
+
+#trazar-ruta:hover{
+  color: white;
+  background-color: #FFC107;
+  border-color: white;
+}
+
+#trazar-ruta:focus{
+  outline:none;
+}
+
+.input:active,
+.input:focus {
+  -moz-outline-style: none;
+  outline:none;
+}
+.inp{
+  margin-left: 3%;
+}
